@@ -1,9 +1,9 @@
 package com.bernardoaguayo.learningspring.data.repository;
 
-import com.bernardoaguayo.learningspring.data.entity.Room;
+import com.bernardoaguayo.learningspring.data.entity.Reservation;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface RoomRepository extends CrudRepository<Room, Long> {
+public interface ReservationRepository extends CrudRepository<Reservation, Long> {
 }
